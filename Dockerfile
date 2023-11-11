@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 #COPY FOR TRAVIS
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
-COPY package*.json ./
+COPY package*.json /usr/src/app/
 
 RUN npm install
 
