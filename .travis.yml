@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t cmc/test-node .
-  - docker images cmc/test-node
+  - docker build -t cmc/node .
+  - docker images cmc/node
