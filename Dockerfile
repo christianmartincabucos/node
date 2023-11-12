@@ -1,5 +1,5 @@
-# Use the latest stable Node.js version
-FROM node:14
+# Use Node.js version 19
+FROM node:19
 
 # Create and set the working directory
 RUN mkdir /usr/src/app 
