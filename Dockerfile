@@ -17,5 +17,5 @@ COPY . /usr/src/app
 # Expose the port that the app listens on
 EXPOSE 4000
 
-# Start the app
-CMD [ "npm", "start" ]
+# Use npm run instead of npm start to keep the container running
+CMD [ "npm", "run" ]
